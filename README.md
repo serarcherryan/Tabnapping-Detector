@@ -9,4 +9,4 @@
 # About the program
 	1. It doesn't work for any Google associated websites/tabs, like google.com, devtools, etc.  
 	2. The green tick represents the page is safe while the red one indicates it is potentially dangerous.  
-	3. If the mismatching percentage is larger than `30%`, the difference will be marked in the right-top part of the current page.
+	3. If the mismatching percentage is larger than **30%**, the difference will be marked in the right-top part of the current page.
