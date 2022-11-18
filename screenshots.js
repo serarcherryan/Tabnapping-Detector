@@ -7,10 +7,9 @@ function insert_style(){
         return;
     //create a div on the current tab to show the image
     result = document.createElement('div');
-    result.style.zIndex = "100000 !important";
     result.id="result_tabnabbing_detection";
-    result.style.width = "40%";
-    result.style.height = "40%";
+    result.style.width = "100%";
+    result.style.height = "100%";
     result.style.top = "0px";
     result.style.right = "0px";
     result.style.backgroundSize = "100% 100%"
