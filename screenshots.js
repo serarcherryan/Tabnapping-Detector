@@ -42,7 +42,7 @@ chrome.runtime.onMessage.addListener(
                 console.log(data);// print the basic analysis
                 image = data.getImageDataUrl();
                 diff_percent = data.misMatchPercentage;
-                if(diff_percent > 30){
+                if(diff_percent > 20){
                     chrome.runtime.sendMessage({greeting:"red"},(response)=>{
                         if(chrome.runtime.lastError)
                             return;
